@@ -438,7 +438,7 @@ void menuadmin()
 	int o;
 	system("cls");
 	cout<<"################ WELCOME HEAD OF DEPARTMENT ######################";
-	cout<<"\n\n\t\t1.See Record2.Enter Status";
+	cout<<"\n\n\t\t1.See Record\n\n\t\t2.Enter Status\n\n\t\t3.EXIT";
 	cout<<"\n\n\n\t\tPlease Enter Your Choise :- ";
 	cin>>i;
 	switch(i)
@@ -460,7 +460,7 @@ void menuadmin()
 				system("cls");	
 				break;
 			}
-		case 6:
+		case 3:
 			{
 				exit (1);
 				break;
